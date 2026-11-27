@@ -36,6 +36,9 @@
         }
       ]
     ],
+    "experiments": {
+      "baseUrl": "/Doctor_U"
+    },
     "extra": {
       "eas": {
         "projectId": "e17a0727-cb2a-45e8-b14b-27e98a72d43e"
