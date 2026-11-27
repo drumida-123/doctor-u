@@ -1,4 +1,3 @@
-
 name: Deploy Doctor_U
 
 on:
@@ -27,7 +26,7 @@ uses: actions/checkout@v4
   - name: Install dependencies
     run: npm install
 
-  - name: Export Expo Web
+  - name: Build Expo
     run: npx expo export --platform web
 
   - name: Upload website
