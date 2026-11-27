@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Doctor_U",
+    "slug": "doctor-u",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFF7FA"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.doctoru.student"
+    },
+    "android": {
+      "package": "com.doctoru.student"
+    },
+    "plugins": [
+      "expo-document-picker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Doctor_U нужен доступ к фото, чтобы добавлять изображения зубов и учебные рисунки."
+        }
+      ],
+      [
+        "expo-file-system",
+        {
+          "enableFileSharing": true
+        }
+      ]
+    ]
+  }
+}
