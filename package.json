@@ -8,11 +8,18 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+<<<<<<< HEAD
     "build": "expo export --platform web",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+=======
+    "build": "expo export --platform web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~58.0.17",
+>>>>>>> c45ca3711b642f840aef0d72aeed3cf80f4bd338
     "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "~58.0.5",
     "expo-document-picker": "~58.0.5",
@@ -21,10 +28,15 @@
     "expo-sharing": "~58.0.5",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+<<<<<<< HEAD
     "react-native": "0.83.2",
     "react-native-web": "^0.21.4"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+=======
+    "react-native": "0.88.1",
+    "react-native-web": "~0.21.4"
+>>>>>>> c45ca3711b642f840aef0d72aeed3cf80f4bd338
   }
 }

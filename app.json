@@ -13,7 +13,17 @@
       "bundleIdentifier": "com.doctoru.student"
     },
     "android": {
+<<<<<<< HEAD
       "package": "com.doctoru.student"
+=======
+      "package": "com.doctoru.student",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET"
+      ]
+>>>>>>> c45ca3711b642f840aef0d72aeed3cf80f4bd338
     },
     "plugins": [
       "expo-document-picker",
@@ -29,6 +39,18 @@
           "enableFileSharing": true
         }
       ]
+<<<<<<< HEAD
     ]
+=======
+    ],
+    "experiments": {
+      "baseUrl": "/Doctor_U"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e17a0727-cb2a-45e8-b14b-27e98a72d43e"
+      }
+    }
+>>>>>>> c45ca3711b642f840aef0d72aeed3cf80f4bd338
   }
 }
